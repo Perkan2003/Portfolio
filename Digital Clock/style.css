@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(224, 239, 253);
+  color: black;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock {
+  font-family: sans-serif;
+  font-size: 128px;
+}
