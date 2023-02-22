@@ -1,0 +1,410 @@
+/***************************/
+/* BELLOW 1705px */
+/***************************/
+
+@media (max-width: 106.5625em) {
+  .portfolio-showcase div {
+    transform: scale(80%);
+  }
+}
+
+/***************************/
+/* BELLOW 1399px */
+/***************************/
+
+@media (max-width: 87.4375em) {
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .hero-card {
+    transform: scale(80%);
+  }
+
+  .hero-design-1 {
+    transform: scale(80%);
+  }
+
+  .hero-design-2 {
+    transform: scale(80%);
+  }
+
+  .hero-design-3 {
+    transform: scale(80%);
+  }
+
+  .about-design {
+    transform: scale(60%);
+    top: 0%;
+    left: -22%;
+  }
+}
+
+/***************************/
+/* BELLOW 1199px */
+/***************************/
+
+@media (max-width: 74.9375em) {
+  .section-hero {
+    min-height: 900px;
+  }
+
+  .hero-title {
+    font-size: 3rem !important;
+  }
+
+  .hero-card {
+    transform: scale(70%);
+  }
+
+  .hero-design-1 {
+    transform: scale(70%);
+    left: 81%;
+  }
+
+  .hero-design-2 {
+    transform: scale(70%);
+    left: 84%;
+  }
+
+  .hero-design-3 {
+    transform: scale(70%);
+    left: 81%;
+  }
+
+  .hero-portofilio-btn:link,
+  .hero-portofilio-btn:visited {
+    padding: 12px;
+  }
+
+  .hero-testimonial-text {
+    font-size: 0.9rem !important;
+    margin-right: 8px !important;
+  }
+
+  .hero-testimonial-signature {
+    font-size: 0.9rem !important;
+  }
+
+  .about {
+    padding: 64px;
+  }
+
+  .about-img {
+    width: 320px;
+    height: 320px;
+  }
+
+  .about-subtitle {
+    font-size: 1.3rem !important;
+  }
+
+  .about-title {
+    font-size: 3rem !important;
+  }
+
+  .about-design {
+    transform: scale(60%);
+    top: -2%;
+    left: -17%;
+  }
+
+  .testimonials-text {
+    padding: 0 250px;
+  }
+
+  .testimonial-card {
+    padding: 36px !important;
+  }
+
+  .testimonial-card-text {
+    font-size: 0.8rem !important;
+  }
+
+  .testmonial-card-signature {
+    font-size: 0.8rem !important;
+  }
+
+  .testimonial-design {
+    transform: scale(60%);
+  }
+
+  .testimonial-card-design-2 {
+    transform: scale(80%);
+    top: -37%;
+  }
+}
+
+/***************************/
+/* BELLOW 989px */
+/***************************/
+
+@media (max-width: 61.8125em) {
+  .hero {
+    flex-direction: column;
+    margin-top: 16px;
+    padding-bottom: 36px;
+  }
+
+  .hero-right {
+    width: 680px;
+  }
+
+  .hero-card {
+    transform: scale(90%);
+  }
+
+  .hero-card-img {
+    width: 312px;
+    height: 350px;
+  }
+
+  .hero-design-1 {
+    transform: scale(90%);
+    left: 101%;
+  }
+
+  .hero-design-2 {
+    transform: scale(90%);
+    left: 109%;
+  }
+
+  .hero-design-3 {
+    transform: scale(90%);
+    left: 101%;
+  }
+
+  .hero-title-btn:link,
+  .hero-title-btn:visited {
+    font-size: 1rem !important;
+  }
+
+  .portfolio-showcase div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .hero-testimonial-text {
+    font-size: 1.1rem !important;
+    margin-right: 8px !important;
+  }
+
+  .hero-testimonial-signature {
+    font-size: 1.1rem !important;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 32px 0;
+  }
+
+  .about-left {
+    padding: 0;
+    margin-bottom: 24px;
+  }
+
+  .about-design {
+    left: -25%;
+  }
+
+  .testimonials-text {
+    padding: 0;
+  }
+
+  .testimonials-cards-box {
+    flex-direction: column;
+  }
+
+  .testimonial-card-text {
+    font-size: 1rem !important;
+  }
+
+  .testmonial-card-signature {
+    font-size: 1rem !important;
+  }
+
+  .faq-box-upper {
+    flex-direction: column;
+  }
+}
+
+/***************************/
+/* BELLOW 767px */
+/***************************/
+
+@media (max-width: 47.9375em) {
+  .hero-card-img {
+    width: 412px;
+    height: 450px;
+  }
+
+  .hero-title {
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    padding: 0;
+    padding-bottom: 48px;
+  }
+
+  .hero-design-1 {
+    transform: scale(90%);
+    left: 89%;
+  }
+
+  .hero-design-2 {
+    transform: scale(90%);
+    left: 97%;
+  }
+
+  .hero-design-3 {
+    transform: scale(90%);
+    left: 89%;
+  }
+
+  .about {
+    padding: 48px;
+  }
+
+  .about-design {
+    left: -5%;
+  }
+
+  .get-in-touch {
+    flex-direction: column;
+  }
+
+  .git-title {
+    text-align: center;
+  }
+
+  .git-text {
+    text-align: center;
+  }
+}
+
+/***************************/
+/* BELLOW 575px */
+/***************************/
+
+@media (max-width: 35.9375em) {
+  .hero-design-1 {
+    transform: scale(80%);
+    left: 84%;
+  }
+
+  .hero-design-2 {
+    transform: scale(80%);
+    left: 87%;
+  }
+
+  .hero-design-3 {
+    transform: scale(80%);
+    left: 84%;
+  }
+
+  .hero-portfolio {
+    justify-content: center;
+  }
+
+  .portfolio-title {
+    text-align: center;
+  }
+
+  .portoflio-text {
+    text-align: center;
+  }
+
+  .portfolio-showcase div img {
+    width: 100%;
+  }
+
+  .section-portfolio {
+    padding-bottom: 44px;
+  }
+
+  .section-about {
+    padding-top: 44px;
+  }
+
+  .testimonial-card {
+    transform: scale(85%);
+  }
+
+  .hero-testimonial {
+    transform: scale(85%);
+  }
+
+  .hero-testimonial:hover {
+    transform: scale(90%);
+  }
+}
+
+/***************************/
+/* BELLOW 515px */
+/***************************/
+
+@media (max-width: 32.1875em) {
+  .hero-design-1 {
+    visibility: hidden;
+  }
+
+  .hero-design-2 {
+    visibility: hidden;
+  }
+
+  .hero-design-3 {
+    visibility: hidden;
+  }
+}
+
+/***************************/
+/* BELLOW 483px */
+/***************************/
+
+@media (max-width: 30.1875em) {
+  .testimonial-card {
+    font-size: 0.8rem !important;
+    padding: 8px;
+  }
+
+  .testimonial-card-design-2 {
+    top: -29%;
+  }
+}
+
+/***************************/
+/* BELLOW 468px */
+/***************************/
+
+@media (max-width: 29.25em) {
+  .hero-card-img {
+    transform: scale(85%);
+  }
+
+  .about-design {
+    visibility: hidden;
+  }
+
+  .hero-portfolio {
+    flex-direction: column;
+  }
+
+  .hero-linkedln-btn:link,
+  .hero-linkedln-btn:visited {
+    border-radius: 20px;
+  }
+
+  .hero-instagram-btn:link,
+  .hero-instagram-btn:visited {
+    border-radius: 20px;
+  }
+
+  .testmonial-card-signature {
+    text-align: center;
+  }
+}
