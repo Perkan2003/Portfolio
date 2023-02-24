@@ -1,0 +1,32 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.game-title {
+  text-align: center;
+}
+
+.score {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  margin: 24px 0;
+}
+
+.reset-btn {
+  font-size: 24px;
+  width: 120px;
+  height: 60px;
+  margin-bottom: 32px;
+}
+
+.game-box {
+  align-self: center;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  background-color: blanchedalmond;
+  border: 8px brown solid;
+  border-radius: 10px;
+}
