@@ -1,0 +1,79 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 32px;
+  padding: 0 164px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 0 48px;
+}
+
+.btn-reset {
+  font-size: 24px;
+  padding: 36px;
+}
+
+.score span {
+  font-size: 80px;
+}
+
+.game-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 156px;
+}
+
+.table div {
+  display: flex;
+  gap: 16px;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.player span {
+  border: 3px solid black;
+  padding: 24px;
+}
+
+.player span:hover {
+  cursor: pointer;
+}
+
+.opponent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.opponent span {
+  border: 3px solid red;
+  color: red;
+  padding: 24px;
+}
+
+.winner {
+  border: 3px solid green;
+  color: green;
+  padding: 36px;
+}
+
+.loser {
+  border: 3px solid red;
+  color: red;
+  padding: 36px;
+}
+
+.draw {
+  border: 3px solid grey;
+  color: grey;
+  padding: 36px;
+}
