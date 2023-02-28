@@ -1,0 +1,61 @@
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 200px;
+}
+
+.input-box input {
+  font-size: 16px;
+}
+
+.add-btn {
+  margin-top: 18px;
+  font-size: 16px;
+  width: 150px;
+  height: 30px;
+}
+
+.delete-all-btn {
+  margin-top: 18px;
+  font-size: 16px;
+  width: 150px;
+  height: 30px;
+}
+
+.contacts {
+  margin-top: 48px;
+}
+
+.contact {
+  border: 2px solid black;
+  margin: 0 256px;
+  margin-bottom: 12px;
+  padding: 16px 96px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+.delete {
+  position: absolute;
+  right: 3%;
+  top: 0;
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
