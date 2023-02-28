@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: aquamarine;
+}
+
+.display {
+  pointer-events: none;
+  font-size: 24px;
+}
+
+.calculator {
+  margin-top: 256px;
+}
+
+.display {
+  width: 244px;
+  height: 60px;
+}
+
+.row button {
+  margin-top: 10px;
+  font-size: 24px;
+  width: 60px;
+  height: 60px;
+}
+
+.btn-clear {
+  width: 253px;
+  height: 60px;
+  margin-top: 10px;
+  font-size: 24px;
+}
