@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  background-color: aquamarine;
+  font-family: sans-serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.upper-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 24px;
+  gap: 32px;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  gap: 32px;
+}
+
+.input {
+  font-size: 24px;
+}
+
+.result {
+  pointer-events: none;
+}
+
+.btn {
+  font-size: 24px;
+}
