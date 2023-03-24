@@ -1,0 +1,177 @@
+/***************************/
+/* BELLOW 1199px
+/***************************/
+
+@media (max-width: 74.9375em) {
+  .rating-title {
+    text-align: center;
+  }
+
+  .passion-card {
+    min-height: 312px;
+  }
+}
+
+/***************************/
+/* BELLOW 991px
+/***************************/
+
+@media (max-width: 61.9375em) {
+  .passion-card {
+    min-height: 357px;
+  }
+
+  .rating {
+    flex-direction: column !important;
+    gap: 48px;
+  }
+
+  .rating-right {
+    display: flex;
+    justify-content: center;
+  }
+
+  .rating-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonials {
+    padding: 0 !important;
+  }
+
+  .testimonial-card {
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  .vacation-box {
+    margin: 0 auto;
+  }
+
+  .vacation-title {
+    text-align: center;
+  }
+
+  .vacation-text {
+    text-align: center;
+  }
+
+  .vacation-btn {
+    margin: 0 auto;
+  }
+
+  .info-text {
+    padding: 0 !important;
+  }
+
+  .info-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .question-box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/***************************/
+/* BELLOW 767px
+/***************************/
+
+@media (max-width: 47.9375em) {
+  .passion-card-box {
+    flex-direction: column;
+    gap: 24px !important;
+  }
+
+  .passion-card {
+    min-height: 300px !important;
+  }
+}
+
+/***************************/
+/* BELLOW 575px
+/***************************/
+
+@media (max-width: 35.9375em) {
+  .testimonials {
+    padding: 0 30px !important;
+  }
+
+  .section-6 .testimonials .testimonial-card-xl {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  .section-6 .testimonials .testimonial-card-xl .testimonial-text {
+    text-align: center !important;
+  }
+
+  .vacation-title {
+    margin: 0 auto;
+  }
+
+  .info-card-text {
+    text-align: center;
+  }
+
+  .info-card-list {
+    text-align: start;
+  }
+}
+
+/***************************/
+/* BELLOW 500px
+/***************************/
+
+@media (max-width: 31.25em) {
+  .hero-btn-box {
+    flex-direction: column;
+  }
+
+  .reserve-form {
+    align-items: center !important;
+    width: auto !important;
+  }
+
+  .reserve-input-element input {
+    width: 350px !important;
+  }
+  .reserve-input-element textarea {
+    width: 350px !important;
+  }
+
+  .reserve-form-btn {
+    width: 350px !important;
+  }
+}
+
+/***************************/
+/* BELLOW 375px
+/***************************/
+
+@media (max-width: 23.4375em) {
+  .rating-img {
+    transform: scale(80%);
+  }
+
+  .reserve-form {
+    align-items: center !important;
+    width: auto !important;
+  }
+
+  .reserve-input-element input {
+    width: 200px !important;
+    font-size: 14px !important;
+  }
+  .reserve-input-element textarea {
+    width: 200px !important;
+  }
+
+  .reserve-form-btn {
+    width: 200px !important;
+  }
+}
